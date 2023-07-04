@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #26a96c;
+}
+
+.header {
+    background-color: #2bc016;
+    padding: 15px 25px;
+    display: row;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+section {
+    margin-top: 30px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.dados-sociod {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.box-dados-iniciais {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-iniciais {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.box-conhecimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text {
+    width: auto;
+}
+
+.select-atendimento, .select-ajuda, .select-genero, .select-gestante {
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #2bc016;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #f21b3f;
+    text-shadow: #26a96c;
+}
+
+a:hover {
+    text-decoration: 1px dashed black;
+}
+
+.container {
+    padding-bottom: 50px;
+}
+
+.card {
+    margin-top: 50px;
+}
